@@ -62,3 +62,7 @@ Within the session menu:
     :kill-session        - kill selected session
     :new -t <name>       - new session
 
+
+## Links
+
+- https://builtin.com/articles/tmux-config
