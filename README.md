@@ -1,5 +1,7 @@
 # my-tmux-config
 
+This is my personal tmux configuration.
+
 ## Installation:
 
     mv .tmux.conf .tmux.conf_BAK
