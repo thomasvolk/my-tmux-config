@@ -9,8 +9,8 @@ This is my personal tmux configuration.
 
 Reload tmux config:
 
-    <Ctrl> + s
-    :source-file ~/.tmux.conf
+    <Ctrl> + s :
+    source-file ~/.tmux.conf
 
 Or on the console:
 
