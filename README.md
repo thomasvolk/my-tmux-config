@@ -9,8 +9,7 @@ This is my personal tmux configuration.
 
 Reload tmux config:
 
-    <Ctrl> + s :
-    source-file ~/.tmux.conf
+    <prefix> + r
 
 Or on the console:
 
@@ -40,29 +39,39 @@ Bind-key:
 
 Commands:
 
-    d                   - detach session
-    $                   - rename session
+    d                       - detach session
+    $                       - rename session
+    r                       - reload config
 
-    %                   - split vertically
-    "                   - split horizontally
-    o                   - switch panes
-    <Arrow>             - switch panes
-    <Alt> + <Arrow>     - resize panes
-    x                   - close pane
+    %                       - split vertically (same path)
+    "                       - split horizontally (same path)
+    o                       - switch panes
+    <Arrow>                 - resize pane (5 cells)
+    <Alt> + <Arrow>         - switch panes (no prefix)
+    <Alt> + h/j/k/l        - switch panes vi-style (no prefix)
+    x                       - close pane
 
-    c                   - create new window
-    n                   - next window
-    p                   - previous window
-    w                   - list windows
-    &                   - close window
+    c                       - create new window (same path)
+    n                       - next window
+    w                       - list windows
+    Space                   - toggle last window
+    &                       - close window
 
-    s                   - open session menue
-    Enter               - enter scroll mode
+    s                       - open session menu
+    C-Space                 - switch to last session
+
+    Enter                   - enter copy/scroll mode
+
+Within copy mode (vi):
+
+    v                       - begin selection
+    y                       - yank (copy) selection
+    p / P                   - paste buffer (outside copy mode)
 
 Within the session menu:
 
-    :kill-session        - kill selected session
-    :new -t <name>       - new session
+    :kill-session           - kill selected session
+    :new -t <name>          - new session
 
 
 ## Links
