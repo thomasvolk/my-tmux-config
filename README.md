@@ -46,6 +46,7 @@ Commands:
     %  |  \                 - split vertically (same path)
     "  -                    - split horizontally (same path)
     o                       - switch panes
+    ]  [                    - swap pane down/up
     <Arrow>                 - resize pane (5 cells)
     <Alt> + <Arrow>         - switch panes (no prefix)
     <Alt> + h/j/k/l         - switch panes vi-style (no prefix)
