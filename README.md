@@ -52,6 +52,11 @@ Commands:
     <Alt> + h/j/k/l         - switch panes vi-style (no prefix)
     x                       - close pane
 
+    Note: <Alt> + <Arrow> requires Terminal.app to send Option as Meta.
+    Enable it in Terminal → Settings → Profiles → Keyboard →
+    "Use Option as Meta key", then open a new window/tab.
+    <Alt> + h/j/k/l works without this setting.
+
     c                       - create new window (same path)
     n                       - next window
     w                       - list windows
